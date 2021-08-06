@@ -8,14 +8,14 @@ body {
   font-style: italic;
 }
 h1 {
-  margin: 30px auto 20px;
-  padding: 5px 20px 5px 10px;
+  margin: 20px auto 15px;
+  padding: 0px 20px 0px 10px;
   text-align: left;
   color: rgb(57, 188, 192);
   font-size: 40px;
 }
 .text {
-  margin: 0px auto 20px;
+  margin: 0px auto 15px;
   padding: 0px 20px 0px 150px;
   text-align: left;
   font-size: 20px;
@@ -39,14 +39,14 @@ h1 {
 
 .container {
   overflow: hidden;
-  height: 592px;
+  height: 452px;
   width: 350px;
   position: relative;
 }
 
 .box {
   display: block;
-  margin: -25px 5px 250px 100px;
+  margin: -25px 5px 180px 100px;
   position: relative;
   cursor: pointer;
 }
@@ -62,7 +62,7 @@ h1 {
   margin: 0px 5px 5px 132px;
 }
 .wish {
-  margin: -50px 0 0 0;
+  margin: -50px 0 0 20px;
   text-align: left;
   font-size: 20px;
   color: rgb(57, 188, 192);
