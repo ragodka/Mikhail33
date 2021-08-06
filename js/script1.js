@@ -2,7 +2,7 @@ let offset = 0;
 function move() {
   offset = offset + 5;
   document.querySelector(".container").style.left = offset + "px";
-  if (offset > 350) {
+  if (offset > 300) {
     return true;
   }
   // document.querySelector(".btn").onclick = move;
@@ -14,7 +14,7 @@ let offsetDrop = 0;
 function drop() {
   offsetDrop = offsetDrop + 5;
   document.querySelector(".box").style.top = offsetDrop + "px";
-  if (offsetDrop > 210) {
+  if (offsetDrop > 190) {
     return true;
   }
   document.querySelector(".helicopter").onclick = drop;
@@ -24,6 +24,6 @@ document.querySelector(".helicopter").onclick = drop;
 
 function showCat() {
   document.querySelector(".box").style.right = "350px";
-  document.querySelector(".container").style.height = "660px";
+  document.querySelector(".container").style.height = "540px";
 }
 document.querySelector(".box").onclick = showCat;
